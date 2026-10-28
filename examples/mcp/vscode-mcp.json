@@ -1,0 +1,16 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "apify-token",
+      "description": "Apify API token (leave empty to use OAuth)",
+      "password": true
+    }
+  ],
+  "servers": {
+    "url-to-markdown": {
+      "type": "http",
+      "url": "https://mcp.apify.com?tools=cleandata-labs/url-to-markdown"
+    }
+  }
+}

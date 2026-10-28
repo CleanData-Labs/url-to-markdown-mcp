@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.CleanData-Labs/url-to-markdown",
+  "title": "URL to Markdown for LLMs",
+  "description": "Web pages and PDFs to clean, LLM-ready Markdown with token counts, small crawls and RAG chunks.",
+  "version": "1.0.0",
+  "websiteUrl": "https://apify.com/cleandata-labs/url-to-markdown",
+  "icons": [
+    {
+      "src": "https://apify-image-uploads-prod.s3.us-east-1.amazonaws.com/FhXOEhao3cRBszyo9-actor-XGn6hv4geVYrkmN6F-AX2BUq5LGP-url-to-markdown.png",
+      "mimeType": "image/png"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=cleandata-labs/url-to-markdown",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. 'Bearer <APIFY_TOKEN>'. Leave empty to sign in with Apify OAuth instead.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

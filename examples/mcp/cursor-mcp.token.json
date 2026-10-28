@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "url-to-markdown": {
+      "url": "https://mcp.apify.com?tools=cleandata-labs/url-to-markdown",
+      "headers": {
+        "Authorization": "Bearer <YOUR_APIFY_TOKEN>"
+      }
+    }
+  }
+}

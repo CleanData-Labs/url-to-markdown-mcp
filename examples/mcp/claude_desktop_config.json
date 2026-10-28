@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "url-to-markdown": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server",
+        "--tools",
+        "cleandata-labs/url-to-markdown"
+      ],
+      "env": {
+        "APIFY_TOKEN": "<YOUR_APIFY_TOKEN>"
+      }
+    }
+  }
+}
