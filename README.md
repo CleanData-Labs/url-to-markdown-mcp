@@ -1,6 +1,6 @@
-<p align="center"><img src="assets/icon.png" alt="URL to Markdown for LLMs icon" width="96"></p>
+<p align="center"><img src="assets/icon.png" alt="URL to Markdown Converter icon" width="96"></p>
 
-# URL to Markdown for LLMs (remote MCP tool)
+# URL to Markdown Converter (remote MCP tool)
 
 Turn web pages and PDFs into clean, LLM-ready Markdown with metadata, token counts and optional RAG chunks. Works as a remote MCP tool and through the Apify API.
 
@@ -234,8 +234,9 @@ Apify's free plan includes a monthly platform credit (currently $5), which is en
 
 More tools from CleanData Labs:
 
-- [Google Trends Explorer](https://github.com/CleanData-Labs/google-trends-explorer-mcp): Google Trends data for AI agents and scripts: interest over time, interest by region, related and rising queries, Trending Now and keyword suggestions.
-- [Google Ads Transparency Explorer](https://github.com/CleanData-Labs/google-ads-transparency-explorer-mcp): See the ads any company runs on Google Search, YouTube, Shopping, Maps and Play, from the public Google Ads Transparency Center.
+- [Google Trends Scraper](https://github.com/CleanData-Labs/google-trends-explorer-mcp): Google Trends data for AI agents and scripts: interest over time, interest by region, related and rising queries, Trending Now and keyword suggestions.
+- [Google Ads Transparency Scraper](https://github.com/CleanData-Labs/google-ads-transparency-explorer-mcp): See the ads any company runs on Google Search, YouTube, Shopping, Maps and Play, from the public Google Ads Transparency Center.
+- [Keyword Research Tool — Autocomplete & Trends](https://github.com/CleanData-Labs/seo-keyword-research-for-agents-mcp): Keyword ideas from Google Autocomplete plus Google Trends interest, direction and rising searches, returned as one compact JSON result per seed keyword with a plain-English summary.
 
 ## License
 

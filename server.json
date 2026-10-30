@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CleanData-Labs/url-to-markdown",
-  "title": "URL to Markdown for LLMs",
+  "title": "URL to Markdown Converter",
   "description": "Web pages and PDFs to clean, LLM-ready Markdown with token counts, small crawls and RAG chunks.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://apify.com/cleandata-labs/url-to-markdown",
   "icons": [
     {

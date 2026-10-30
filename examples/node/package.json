@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Examples for the URL to Markdown for LLMs Apify Actor",
+  "description": "Examples for the URL to Markdown Converter Apify Actor",
   "license": "MIT",
   "engines": {
     "node": ">=18"

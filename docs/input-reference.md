@@ -1,4 +1,4 @@
-# Input reference: URL to Markdown for LLMs
+# Input reference: URL to Markdown Converter
 
 Generated from the Actor's published input schema. All fields are optional unless marked required. The same fields are the arguments of the MCP tool `cleandata-labs--url-to-markdown`.
 
@@ -6,7 +6,7 @@ Live version: <https://apify.com/cleandata-labs/url-to-markdown/input-schema>
 
 | Field | Type | Default | Description |
 |---|---|---|---|
-| `urls` **(required)** | array | `["https://en.wikipedia.org/wiki/Large_language_model", "https://docs.apify.com/platform/actors"]` | Public web pages or PDF links to convert, e.g. ["https://example.com/blog/post"]. 'https://' is added if missing. One converted page costs one result. Always pass your own URLs: the default list is only a demo. |
+| `urls` **(required)** | array | `["https://docs.apify.com/platform/actors", "https://en.wikipedia.org/wiki/Markdown"]` | Public web pages or PDF links to convert, e.g. ["https://example.com/blog/post"]. 'https://' is added if missing. One converted page costs one result. Always pass your own URLs: the default list is only a demo. |
 | `maxCrawlDepth` | integer (min 0, max 10) | `0` | How far to follow links on the same host, 0-10. 0 (default) = convert only the given URLs. 1 = also the pages they link to, 2 = one level more. Combine with maxPagesPerStartUrl to cap cost. |
 | `useSitemap` | boolean | `false` | true = also find pages from the site's sitemap (robots.txt Sitemap entries or /sitemap.xml). Good for a whole docs site or blog. Cap it with maxPagesPerStartUrl. Default false. |
 | `maxPagesPerStartUrl` | integer (min 0) | `50` | Max pages per start URL when crawling or using the sitemap, 0 = no limit. Default 50. Each page is charged, so keep it low (e.g. 5-20) for quick agent tasks. |
